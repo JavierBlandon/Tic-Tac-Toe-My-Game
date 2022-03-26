@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://www.todofondos.net/wp-content/uploads/todofondos-4KparaPC14.jpg);
+}
+.container{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #327783;
+}
+ 
+.game-container{
+     display: grid;
+     grid-template-columns: repeat(3,auto);
+     width: 306px;
+     margin: 50px auto;
+ }
+
+ .game-cell{
+     width: 100px;
+     height: 100px;
+     box-shadow: 0 0 0 1px #c40a0a;
+     border: 1px solid #333333;
+     cursor: pointer;
+     line-height: 100px;
+     font-size: 60px;
+ }
+ .game-restart{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: medium;
+
+ }
+ .game-restart:hover{
+    background-color: white;
+    color: red;
+ }
